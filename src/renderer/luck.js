@@ -229,7 +229,9 @@ export function expectedUpAverage(kind) {
 // isLimited(f): the 5★ is a character that has been rate-up on a character event banner at
 // some point in the banner history (not just in this account's records; chronicled pick
 // lists include standard characters, so they don't count).
-export function buildCollection(pools, isLimited) {
+// extras: { itemId: copies } obtained outside wishes (gifts, exchanges), entered by hand; they
+// add to the constellation only. nameOf(itemId) names characters that have no wish copies.
+export function buildCollection(pools, isLimited, extras = {}, nameOf = id => id) {
   const out = new Map()
   const entry = f => {
     if (!out.has(f.name)) out.set(f.name, { name: f.name, itemId: f.itemId, copies: 0, upCopies: 0, otherCopies: 0, pulls: 0, first: f.time, last: f.time })
@@ -250,5 +252,18 @@ export function buildCollection(pools, isLimited) {
       else e.otherCopies++
     }
   }
-  return [...out.values()].map(e => ({ ...e, cons: Math.min(6, e.copies - 1), extra: Math.max(0, e.copies - 7), avg: e.upCopies ? e.pulls / e.upCopies : null }))
+  for (const [id, n] of Object.entries(extras || {})) {
+    if (!(n > 0)) continue
+    let e = [...out.values()].find(x => x.itemId === id)
+    if (!e) {
+      e = { name: nameOf(id) || id, itemId: id, copies: 0, upCopies: 0, otherCopies: 0, pulls: 0, first: null, last: null }
+      out.set(`id:${id}`, e)
+    }
+    e.extraCopies = n
+    e.copies += n
+  }
+  return [...out.values()].map(e => ({
+    ...e, extraCopies: e.extraCopies || 0,
+    cons: Math.min(6, e.copies - 1), extra: Math.max(0, e.copies - 7), avg: e.upCopies ? e.pulls / e.upCopies : null,
+  }))
 }

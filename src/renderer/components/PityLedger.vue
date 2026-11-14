@@ -10,7 +10,8 @@
         <el-radio-button v-if="analysis.collection?.length" label="collection">{{ text.collection.tab }}</el-radio-button>
       </el-radio-group>
     </div>
-    <collection-grid v-if="pool === 'collection'" :items="analysis.collection" :icons="icons" :text="text"></collection-grid>
+    <collection-grid v-if="pool === 'collection'" :items="analysis.collection" :characters="analysis.characters" :icons="icons" :text="text"
+                     @set-extra="(id, n) => emit('set-extra', id, n)"></collection-grid>
     <template v-else>
     <div class="legend">
       <span v-for="[cls, label] of legend" :key="cls"><i class="dot" :class="cls"></i>{{ label }}</span>
@@ -73,6 +74,7 @@ import { bannerSpeed, bannerEfficiency, fiftyLuck, upCosts, tierOf, FULL_PITY } 
 import { pityModel, RADIANCE_SINCE } from '../analysis'
 
 const props = defineProps({ analysis: Object, typeMap: Map, text: Object, icons: Object })
+const emit = defineEmits(['set-extra'])
 
 const pools = computed(() => POOL_ORDER.filter(k => props.analysis.pools[k]?.total))
 const pool = ref('2')

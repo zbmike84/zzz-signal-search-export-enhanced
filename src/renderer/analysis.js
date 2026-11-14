@@ -34,7 +34,8 @@ const verKey = v => v.split('.').map(Number)
 const verCmp = (a, b) => { const x = verKey(a), y = verKey(b); return x[0] - y[0] || (x[1] || 0) - (y[1] || 0) }
 const fmtMs = ms => new Date(ms).toISOString().slice(0, 19).replace('T', ' ')
 
-export function analyse(account, bannerData) {
+// idJson: src/idJson.json (passed in, so this module also runs under Node for tests)
+export function analyse(account, bannerData, { extras = {}, idJson = {} } = {}) {
   const tz = account.region_time_zone ?? 8
   const { pools, issues } = judge(account.result, bannerData, { tz })
 
@@ -69,6 +70,11 @@ export function analyse(account, bannerData) {
   const versions = [...perVersion.values()].sort((a, b) => verCmp(a.version, b.version))
   for (const v of versions) v.fives.sort((a, b) => (a.time < b.time ? -1 : 1))
   const limited = new Set(bannerData.banners.filter(b => b.channel === 'character').flatMap(b => b.up5))
-  const collection = buildCollection(pools, f => limited.has(f.itemId))
-  return { pools, issues, rate, radiance: null, versions, collection }
+  // every 5★ / S-rank character, in the account's language, for adding copies obtained outside the gacha
+  const names = idJson[account.lang] || idJson['en-us'] || {}
+  const characters = Object.entries(names).filter(([id, v]) => id.length === 4 && Number(v.rank_type) === 4)
+    .map(([id, v]) => ({ id, name: v.name }))
+  const nameOf = id => characters.find(c => c.id === id)?.name
+  const collection = buildCollection(pools, f => limited.has(f.itemId), extras, nameOf)
+  return { pools, issues, rate, radiance: null, versions, collection, characters }
 }

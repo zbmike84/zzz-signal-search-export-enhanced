@@ -13,6 +13,7 @@ require('./bridge')
 require('./excel')
 require('./UIGFJson')
 require('./icons')
+require('./collectionExtra')
 const { getUpdateInfo } = require('./update/index')
 
 const isDev = !app.isPackaged

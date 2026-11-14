@@ -201,12 +201,15 @@
   "ui.analysis.collection.cons": "M{n}",
   "ui.analysis.collection.extra": "+{n}",
   "ui.analysis.collection.summary": "{n} limited agents · {f} at M6 · {p} pulls in total",
-  "ui.analysis.collection.hint": "Mindscape = copies − 1 (including copies from losses and the Stable Channel). Pulls = what each rate-up copy cost, including the S-rank lost before its guarantee; copies from losses or the Stable Channel add to the mindscape only.",
+  "ui.analysis.collection.hint": "Mindscape = copies − 1 (including losses, the Stable Channel and copies you record under Other sources). Pulls = what each rate-up copy cost, including the S-rank lost before its guarantee; other copies add to the mindscape only. Gifts and exchanges aren't in the signal history, so record them with + on the card.",
   "ui.analysis.collection.pulls": "pulls · {u} rate-up",
   "ui.analysis.collection.avg": "{a} per copy",
   "ui.analysis.collection.other": "plus {k} from losses or the Stable Channel",
   "ui.analysis.collection.noPulls": "All from losses or the Stable Channel; no pulls charged",
   "ui.analysis.collection.sortRecent": "Recent",
   "ui.analysis.collection.sortCons": "Mindscape",
-  "ui.analysis.collection.sortPulls": "Pulls"
+  "ui.analysis.collection.sortPulls": "Pulls",
+  "ui.analysis.collection.extraLabel": "Other sources",
+  "ui.analysis.collection.add": "Add an agent from other sources",
+  "ui.analysis.collection.onlyExtra": "Only from other sources"
 }

@@ -140,7 +140,7 @@
                   :title="fmt(aText.issues, { n: analysis.issues.length })"></el-alert>
         <status-tiles :analysis="analysis" :typeMap="typeMap" :text="aText"></status-tiles>
         <luck-summary :analysis="analysis" :typeMap="typeMap" :text="aText"></luck-summary>
-        <pity-ledger :analysis="analysis" :typeMap="typeMap" :text="aText" :icons="state.icons"></pity-ledger>
+        <pity-ledger :analysis="analysis" :typeMap="typeMap" :text="aText" :icons="state.icons" @set-extra="setExtra"></pity-ledger>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <pity-distribution :analysis="analysis" :typeMap="typeMap" :text="aText"></pity-distribution>
           <luck-panel :analysis="analysis" :text="aText"></luck-panel>
@@ -237,6 +237,7 @@ import VersionChart from "./components/VersionChart.vue";
 import { analyse } from "./analysis.js";
 import { fmt } from "./analysisUi";
 import bannerData from "../data/banners.json";
+import idJson from "../idJson.json";
 import GachaDetail from "./components/GachaDetail.vue";
 import Setting from "./components/Setting.vue";
 import gachaDetail from "./gachaDetail";
@@ -250,6 +251,7 @@ const state = reactive({
   data: null,
   dataMap: new Map(),
   icons: {},
+  extras: {},   // copies obtained outside the gacha, per uid: { itemId: n }
   current: 0,
   showSetting: false,
   i18n: null,
@@ -348,7 +350,7 @@ const analysis = computed(() => {
   const data = state.dataMap.get(state.current);
   if (!data) return null;
   try {
-    return analyse(data, bannerData);
+    return analyse(data, bannerData, { extras: state.extras[state.current] || {}, idJson });
   } catch (e) {
     console.error(e);
     return null;
@@ -357,6 +359,24 @@ const analysis = computed(() => {
 
 const aText = computed(() => state.i18n?.ui?.analysis);
 
+// hand-entered copies from gifts/exchanges, stored per uid by the main process
+watch(() => state.current, async (uid) => {
+  if (!uid || state.extras[uid]) return;
+  try {
+    state.extras = { ...state.extras, [uid]: await ipcRenderer.invoke("GET_COLLECTION_EXTRA", uid) };
+  } catch (e) {
+    console.error(e);
+  }
+}, { immediate: true });
+const setExtra = async (itemId, n) => {
+  const uid = state.current;
+  try {
+    state.extras = { ...state.extras, [uid]: await ipcRenderer.invoke("SET_COLLECTION_EXTRA", uid, itemId, n) };
+  } catch (e) {
+    console.error(e);
+  }
+};
+
 // icons for every S-rank on screen (cached on disk by the main process): cached first, then downloads
 watch(analysis, async (a) => {
   if (!a) return;
@@ -364,6 +384,7 @@ watch(analysis, async (a) => {
   for (const p of Object.values(a.pools)) {
     for (const f of p.fives) if (f.itemId && !state.icons[f.itemId]) want.set(f.itemId, { id: f.itemId });
   }
+  for (const e of a.collection) if (e.itemId && !state.icons[e.itemId]) want.set(e.itemId, { id: e.itemId });
   if (!want.size) return;
   try {
     const cached = await ipcRenderer.invoke("GET_ICONS", [...want.values()], { offline: true });

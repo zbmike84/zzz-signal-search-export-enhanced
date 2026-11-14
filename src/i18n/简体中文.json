@@ -201,12 +201,15 @@
   "ui.analysis.collection.cons": "{n}影",
   "ui.analysis.collection.extra": "+{n}",
   "ui.analysis.collection.summary": "{n} 个限定代理人 · 满影 {f} 个 · 一共 {p} 抽",
-  "ui.analysis.collection.hint": "影画 = 拿到的份数 − 1（含歪出来的和常驻频段出的）。抽数 = 每次出这个 UP 实际花的抽数，包括之前歪掉的那个 S 级；歪出来或常驻频段出的只算影画，不算抽数。",
+  "ui.analysis.collection.hint": "影画 = 拿到的份数 − 1（含歪出来的、常驻频段出的，以及手动记下的“其他途径”）。抽数 = 每次出这个 UP 实际花的抽数，包括之前歪掉的那个 S 级；歪出来、常驻频段或其他途径得到的只算影画，不算抽数。赠送、兑换不在调频记录里，在卡片下方用 ＋ 记下。",
   "ui.analysis.collection.pulls": "抽 · {u} 个 UP",
   "ui.analysis.collection.avg": "平均 {a} 抽一个",
   "ui.analysis.collection.other": "另有 {k} 个是歪出来的或常驻频段出的",
   "ui.analysis.collection.noPulls": "全是歪出来的或常驻频段出的，不计抽数",
   "ui.analysis.collection.sortRecent": "最近获得",
   "ui.analysis.collection.sortCons": "影画",
-  "ui.analysis.collection.sortPulls": "抽数"
+  "ui.analysis.collection.sortPulls": "抽数",
+  "ui.analysis.collection.extraLabel": "其他途径",
+  "ui.analysis.collection.add": "添加其他途径获得的代理人",
+  "ui.analysis.collection.onlyExtra": "只通过其他途径获得"
 }
