@@ -1,4 +1,5 @@
 // Everything the analysis UI needs, derived from one account's records.
+import { buildCollection } from './luck.js'
 import { judge, winRate, POOL_KIND, prepareBanners } from './judge.js'
 
 // Community models of the official rates: flat base rate, then +step per pull from `soft`,
@@ -67,5 +68,7 @@ export function analyse(account, bannerData) {
   const rate = character ? winRate(character.fives) : null
   const versions = [...perVersion.values()].sort((a, b) => verCmp(a.version, b.version))
   for (const v of versions) v.fives.sort((a, b) => (a.time < b.time ? -1 : 1))
-  return { pools, issues, rate, radiance: null, versions }
+  const limited = new Set(bannerData.banners.filter(b => b.channel === 'character').flatMap(b => b.up5))
+  const collection = buildCollection(pools, f => limited.has(f.itemId))
+  return { pools, issues, rate, radiance: null, versions, collection }
 }

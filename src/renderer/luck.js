@@ -217,3 +217,38 @@ export function expectedUpAverage(kind) {
   const v = pityModel(kind).mean * (2 - upChance(kind))
   return { pre: v, post: v }
 }
+
+// ---- collection ------------------------------------------------------------------------
+
+// Copies and pulls per rate-up character.
+//   copies: every 5★ copy from any wish (constellation = copies - 1)
+//   pulls:  for each copy that was a rate-up, the pulls since the previous rate-up on that
+//           wish (a lost 5★ before the guarantee is charged to the character it led to);
+//           copies that came as a loss or from the standard wish add no pulls, since those
+//           pulls are already charged to a rate-up.
+// isLimited(f): the 5★ is a character that has been rate-up on a character event banner at
+// some point in the banner history (not just in this account's records; chronicled pick
+// lists include standard characters, so they don't count).
+export function buildCollection(pools, isLimited) {
+  const out = new Map()
+  const entry = f => {
+    if (!out.has(f.name)) out.set(f.name, { name: f.name, itemId: f.itemId, copies: 0, upCopies: 0, otherCopies: 0, pulls: 0, first: f.time, last: f.time })
+    const e = out.get(f.name)
+    if (f.time < e.first) e.first = f.time
+    if (f.time > e.last) e.last = f.time
+    return e
+  }
+  for (const p of Object.values(pools)) {
+    const charged = new Map()
+    if (p.kind === 'character') for (const c of upCosts(p.fives).costs) charged.set(c.f, c.cost)
+    for (const f of p.fives) {
+      if (!isLimited(f)) continue
+      const e = entry(f)
+      e.copies++
+      if (charged.has(f)) { e.upCopies++; e.pulls += charged.get(f) }
+      else if (p.kind === 'chronicled' && (f.result === 'up' || f.result === 'up_guaranteed')) { e.upCopies++; e.pulls += f.pity }
+      else e.otherCopies++
+    }
+  }
+  return [...out.values()].map(e => ({ ...e, cons: Math.min(6, e.copies - 1), extra: Math.max(0, e.copies - 7), avg: e.upCopies ? e.pulls / e.upCopies : null }))
+}

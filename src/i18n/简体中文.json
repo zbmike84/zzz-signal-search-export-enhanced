@@ -196,5 +196,17 @@
   "ui.analysis.fortune.worstBanner": "最惨的卡池",
   "ui.analysis.fortune.bestBanner": "最欧的卡池",
   "ui.analysis.fortune.worstBannerDetail": "{up}（{v}）：{t} 抽出了 {u} 个 UP，按期望 {e} 抽就够，多花了 {x} 抽",
-  "ui.analysis.fortune.bestBannerDetail": "{up}（{v}）：{t} 抽出了 {u} 个 UP，按期望要 {e} 抽，省了 {x} 抽"
+  "ui.analysis.fortune.bestBannerDetail": "{up}（{v}）：{t} 抽出了 {u} 个 UP，按期望要 {e} 抽，省了 {x} 抽",
+  "ui.analysis.collection.tab": "限定代理人",
+  "ui.analysis.collection.cons": "{n}影",
+  "ui.analysis.collection.extra": "+{n}",
+  "ui.analysis.collection.summary": "{n} 个限定代理人 · 满影 {f} 个 · 一共 {p} 抽",
+  "ui.analysis.collection.hint": "影画 = 拿到的份数 − 1（含歪出来的和常驻频段出的）。抽数 = 每次出这个 UP 实际花的抽数，包括之前歪掉的那个 S 级；歪出来或常驻频段出的只算影画，不算抽数。",
+  "ui.analysis.collection.pulls": "抽 · {u} 个 UP",
+  "ui.analysis.collection.avg": "平均 {a} 抽一个",
+  "ui.analysis.collection.other": "另有 {k} 个是歪出来的或常驻频段出的",
+  "ui.analysis.collection.noPulls": "全是歪出来的或常驻频段出的，不计抽数",
+  "ui.analysis.collection.sortRecent": "最近获得",
+  "ui.analysis.collection.sortCons": "影画",
+  "ui.analysis.collection.sortPulls": "抽数"
 }

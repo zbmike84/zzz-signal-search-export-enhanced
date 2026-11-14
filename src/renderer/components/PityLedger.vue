@@ -7,8 +7,11 @@
       </div>
       <el-radio-group v-model="pool" size="small">
         <el-radio-button v-for="k of pools" :key="k" :label="k">{{ typeMap.get(k) || k }}</el-radio-button>
+        <el-radio-button v-if="analysis.collection?.length" label="collection">{{ text.collection.tab }}</el-radio-button>
       </el-radio-group>
     </div>
+    <collection-grid v-if="pool === 'collection'" :items="analysis.collection" :icons="icons" :text="text"></collection-grid>
+    <template v-else>
     <div class="legend">
       <span v-for="[cls, label] of legend" :key="cls"><i class="dot" :class="cls"></i>{{ label }}</span>
     </div>
@@ -57,12 +60,14 @@
         </div>
       </template>
     </div>
+    </template>
     <div v-show="tip" ref="tipEl" class="tip" v-html="tip"></div>
   </section>
 </template>
 
 <script setup>
 import { ref, computed, watch } from 'vue'
+import CollectionGrid from './CollectionGrid.vue'
 import { fmt, resultInfo, legendFor, POOL_ORDER, esc, topText, TIER_COLORS } from '../analysisUi'
 import { bannerSpeed, bannerEfficiency, fiftyLuck, upCosts, tierOf, FULL_PITY } from '../luck.js'
 import { pityModel, RADIANCE_SINCE } from '../analysis'
@@ -71,7 +76,7 @@ const props = defineProps({ analysis: Object, typeMap: Map, text: Object, icons:
 
 const pools = computed(() => POOL_ORDER.filter(k => props.analysis.pools[k]?.total))
 const pool = ref('2')
-watch(pools, ps => { if (!ps.includes(pool.value)) pool.value = ps[0] }, { immediate: true })
+watch(pools, ps => { if (!ps.includes(pool.value) && pool.value !== 'collection') pool.value = ps[0] }, { immediate: true })
 const scroller = ref(null)
 watch(pool, () => { if (scroller.value) scroller.value.scrollTop = 0 })
 
