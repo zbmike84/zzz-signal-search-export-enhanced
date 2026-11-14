@@ -18,7 +18,8 @@
             <div class="name">{{ e.name }}</div>
             <div class="cons">
               <span class="pips" :aria-label="fmt(text.collection.cons, { n: e.cons })">
-                <i v-for="k in 7" :key="k" :class="{ on: k <= e.copies }"></i>
+                <!-- one pip per constellation level 1-6; owning the character at all is level 0 -->
+                <i v-for="k in 6" :key="k" :class="{ on: k <= e.cons }"></i>
               </span>
               <b>{{ fmt(text.collection.cons, { n: e.cons }) }}</b>
               <span v-if="e.extra" class="extra">{{ fmt(text.collection.extra, { n: e.extra }) }}</span>
