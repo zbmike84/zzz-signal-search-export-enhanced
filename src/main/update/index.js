@@ -60,6 +60,10 @@ const update = async () => {
 
 const getUpdateInfo = () => updateInfo
 
-setTimeout(update, 1000)
+// Fork: the upstream updater downloads earthjasonlin's release from github.io and
+// overwrites the app folder, which would silently replace this fork. Disabled until the
+// fork has its own update channel.
+const UPDATE_ENABLED = false
+if (UPDATE_ENABLED) setTimeout(update, 1000)
 
 exports.getUpdateInfo = getUpdateInfo
