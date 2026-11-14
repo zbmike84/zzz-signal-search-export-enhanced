@@ -12,6 +12,7 @@ require('./getData')
 require('./bridge')
 require('./excel')
 require('./UIGFJson')
+require('./icons')
 const { getUpdateInfo } = require('./update/index')
 
 const isDev = !app.isPackaged

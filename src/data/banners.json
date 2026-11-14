@@ -1,0 +1,2797 @@
+{
+ "source": "https://github.com/quantulr/hoyo-gacha (assets/zzz-banners.json, main, MIT); data from https://wiki.biligame.com/zzz/调频",
+ "upstreamUpdated": "2026-11-11",
+ "generatedAt": "2026-11-14T15:05:50.004Z",
+ "banners": [
+  {
+   "id": 0,
+   "version": "1.0",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "艾莲（强攻·冰）",
+   "up5": [
+    "1191"
+   ],
+   "names": {
+    "1191": "艾莲"
+   },
+   "start": "2024-07-04 10:00:00",
+   "startLocal": false,
+   "end": "2024-07-24 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 1,
+   "version": "1.0",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "深海访客（强攻）",
+   "up5": [
+    "14119"
+   ],
+   "names": {
+    "14119": "深海访客"
+   },
+   "start": "2024-07-04 10:00:00",
+   "startLocal": false,
+   "end": "2024-07-24 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 2,
+   "version": "1.0",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "朱鸢（强攻·以太）",
+   "up5": [
+    "1241"
+   ],
+   "names": {
+    "1241": "朱鸢"
+   },
+   "start": "2024-07-24 12:00:00",
+   "startLocal": true,
+   "end": "2024-08-13 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 3,
+   "version": "1.0",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "防暴者Ⅵ型（强攻）",
+   "up5": [
+    "14124"
+   ],
+   "names": {
+    "14124": "防暴者Ⅵ型"
+   },
+   "start": "2024-07-24 12:00:00",
+   "startLocal": true,
+   "end": "2024-08-13 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 4,
+   "version": "1.1",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "青衣（击破·电）",
+   "up5": [
+    "1251"
+   ],
+   "names": {
+    "1251": "青衣"
+   },
+   "start": "2024-08-14 11:00:00",
+   "startLocal": false,
+   "end": "2024-09-04 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 5,
+   "version": "1.1",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "玉壶青冰（击破）",
+   "up5": [
+    "14125"
+   ],
+   "names": {
+    "14125": "玉壶青冰"
+   },
+   "start": "2024-08-14 11:00:00",
+   "startLocal": false,
+   "end": "2024-09-04 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 6,
+   "version": "1.1",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "简（异常·物理）",
+   "up5": [
+    "1261"
+   ],
+   "names": {
+    "1261": "简"
+   },
+   "start": "2024-09-04 12:00:00",
+   "startLocal": true,
+   "end": "2024-09-24 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 7,
+   "version": "1.1",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "淬锋钳刺（异常）",
+   "up5": [
+    "14126"
+   ],
+   "names": {
+    "14126": "淬锋钳刺"
+   },
+   "start": "2024-09-04 12:00:00",
+   "startLocal": true,
+   "end": "2024-09-24 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 8,
+   "version": "1.2",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "凯撒（防护·物理）",
+   "up5": [
+    "1071"
+   ],
+   "names": {
+    "1071": "凯撒"
+   },
+   "start": "2024-09-25 11:00:00",
+   "startLocal": false,
+   "end": "2024-10-16 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 9,
+   "version": "1.2",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "奔袭獠牙（防护）",
+   "up5": [
+    "14107"
+   ],
+   "names": {
+    "14107": "奔袭獠牙"
+   },
+   "start": "2024-09-25 11:00:00",
+   "startLocal": false,
+   "end": "2024-10-16 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 10,
+   "version": "1.2",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "柏妮思（异常·火）",
+   "up5": [
+    "1171"
+   ],
+   "names": {
+    "1171": "柏妮思"
+   },
+   "start": "2024-10-16 12:00:00",
+   "startLocal": true,
+   "end": "2024-11-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 11,
+   "version": "1.2",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "灼心摇壶（异常）",
+   "up5": [
+    "14117"
+   ],
+   "names": {
+    "14117": "灼心摇壶"
+   },
+   "start": "2024-10-16 12:00:00",
+   "startLocal": true,
+   "end": "2024-11-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 12,
+   "version": "1.3",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "柳（异常·电）",
+   "up5": [
+    "1221"
+   ],
+   "names": {
+    "1221": "柳"
+   },
+   "start": "2024-11-06 11:00:00",
+   "startLocal": false,
+   "end": "2024-11-27 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 13,
+   "version": "1.3",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "时流贤者（异常）",
+   "up5": [
+    "14122"
+   ],
+   "names": {
+    "14122": "时流贤者"
+   },
+   "start": "2024-11-06 11:00:00",
+   "startLocal": false,
+   "end": "2024-11-27 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 14,
+   "version": "1.3",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "莱特（击破·火）",
+   "up5": [
+    "1161"
+   ],
+   "names": {
+    "1161": "莱特"
+   },
+   "start": "2024-11-27 12:00:00",
+   "startLocal": true,
+   "end": "2024-12-17 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 15,
+   "version": "1.3",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "焰心桂冠（击破）",
+   "up5": [
+    "14116"
+   ],
+   "names": {
+    "14116": "焰心桂冠"
+   },
+   "start": "2024-11-27 12:00:00",
+   "startLocal": true,
+   "end": "2024-12-17 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 16,
+   "version": "1.4",
+   "phase": "全版本",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "雅（异常·烈霜）",
+   "up5": [
+    "1091"
+   ],
+   "names": {
+    "1091": "雅"
+   },
+   "start": "2024-12-18 11:00:00",
+   "startLocal": false,
+   "end": "2025-01-21 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 17,
+   "version": "1.4",
+   "phase": "全版本",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "悠真（强攻·电）",
+   "up5": [
+    "1201"
+   ],
+   "names": {
+    "1201": "悠真"
+   },
+   "start": "2024-12-18 11:00:00",
+   "startLocal": false,
+   "end": "2025-01-21 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 18,
+   "version": "1.4",
+   "phase": "全版本",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "霰落星殿（异常）",
+   "up5": [
+    "14109"
+   ],
+   "names": {
+    "14109": "霰落星殿"
+   },
+   "start": "2024-12-18 11:00:00",
+   "startLocal": false,
+   "end": "2025-01-21 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 19,
+   "version": "1.4",
+   "phase": "全版本",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "残心青囊（强攻）",
+   "up5": [
+    "14120"
+   ],
+   "names": {
+    "14120": "残心青囊"
+   },
+   "start": "2024-12-18 11:00:00",
+   "startLocal": false,
+   "end": "2025-01-21 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 20,
+   "version": "1.5",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "耀嘉音（支援·以太）",
+   "up5": [
+    "1311"
+   ],
+   "names": {
+    "1311": "耀嘉音"
+   },
+   "start": "2025-01-22 11:00:00",
+   "startLocal": false,
+   "end": "2025-02-12 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 21,
+   "version": "1.5",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "艾莲（强攻·冰）",
+   "up5": [
+    "1191"
+   ],
+   "names": {
+    "1191": "艾莲"
+   },
+   "start": "2025-01-22 11:00:00",
+   "startLocal": false,
+   "end": "2025-02-12 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 22,
+   "version": "1.5",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "玲珑妆匣（支援）",
+   "up5": [
+    "14131"
+   ],
+   "names": {
+    "14131": "玲珑妆匣"
+   },
+   "start": "2025-01-22 11:00:00",
+   "startLocal": false,
+   "end": "2025-02-12 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 23,
+   "version": "1.5",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "深海访客（强攻）",
+   "up5": [
+    "14119"
+   ],
+   "names": {
+    "14119": "深海访客"
+   },
+   "start": "2025-01-22 11:00:00",
+   "startLocal": false,
+   "end": "2025-02-12 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 24,
+   "version": "1.5",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "伊芙琳（强攻·火）",
+   "up5": [
+    "1321"
+   ],
+   "names": {
+    "1321": "伊芙琳"
+   },
+   "start": "2025-02-12 12:00:00",
+   "startLocal": true,
+   "end": "2025-03-11 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 25,
+   "version": "1.5",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "青衣（击破·电）",
+   "up5": [
+    "1251"
+   ],
+   "names": {
+    "1251": "青衣"
+   },
+   "start": "2025-02-12 12:00:00",
+   "startLocal": true,
+   "end": "2025-03-11 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 26,
+   "version": "1.5",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "心弦夜响（强攻）",
+   "up5": [
+    "14132"
+   ],
+   "names": {
+    "14132": "心弦夜响"
+   },
+   "start": "2025-02-12 12:00:00",
+   "startLocal": true,
+   "end": "2025-03-11 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 27,
+   "version": "1.5",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "玉壶青冰（击破）",
+   "up5": [
+    "14125"
+   ],
+   "names": {
+    "14125": "玉壶青冰"
+   },
+   "start": "2025-02-12 12:00:00",
+   "startLocal": true,
+   "end": "2025-03-11 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 28,
+   "version": "1.6",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "零号·安比（强攻·电）",
+   "up5": [
+    "1381"
+   ],
+   "names": {
+    "1381": "零号·安比"
+   },
+   "start": "2025-03-12 11:00:00",
+   "startLocal": false,
+   "end": "2025-04-02 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 29,
+   "version": "1.6",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "柏妮思（异常·火）",
+   "up5": [
+    "1171"
+   ],
+   "names": {
+    "1171": "柏妮思"
+   },
+   "start": "2025-03-12 11:00:00",
+   "startLocal": false,
+   "end": "2025-04-02 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 30,
+   "version": "1.6",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "牺牲洁纯（强攻）",
+   "up5": [
+    "14138"
+   ],
+   "names": {
+    "14138": "牺牲洁纯"
+   },
+   "start": "2025-03-12 11:00:00",
+   "startLocal": false,
+   "end": "2025-04-02 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 31,
+   "version": "1.6",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "灼心摇壶（异常）",
+   "up5": [
+    "14117"
+   ],
+   "names": {
+    "14117": "灼心摇壶"
+   },
+   "start": "2025-03-12 11:00:00",
+   "startLocal": false,
+   "end": "2025-04-02 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 32,
+   "version": "1.6",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「扳机」（击破·电）",
+   "up5": [
+    "1361"
+   ],
+   "names": {
+    "1361": "「扳机」"
+   },
+   "start": "2025-04-02 12:00:00",
+   "startLocal": true,
+   "end": "2025-04-22 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 33,
+   "version": "1.6",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "朱鸢（强攻·以太）",
+   "up5": [
+    "1241"
+   ],
+   "names": {
+    "1241": "朱鸢"
+   },
+   "start": "2025-04-02 12:00:00",
+   "startLocal": true,
+   "end": "2025-04-22 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 34,
+   "version": "1.6",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "索魂影眸（击破）",
+   "up5": [
+    "14136"
+   ],
+   "names": {
+    "14136": "索魂影眸"
+   },
+   "start": "2025-04-02 12:00:00",
+   "startLocal": true,
+   "end": "2025-04-22 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 35,
+   "version": "1.6",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "防暴者Ⅵ型（强攻）",
+   "up5": [
+    "14124"
+   ],
+   "names": {
+    "14124": "防暴者Ⅵ型"
+   },
+   "start": "2025-04-02 12:00:00",
+   "startLocal": true,
+   "end": "2025-04-22 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 36,
+   "version": "1.7",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "薇薇安（异常·以太）",
+   "up5": [
+    "1331"
+   ],
+   "names": {
+    "1331": "薇薇安"
+   },
+   "start": "2025-04-23 11:00:00",
+   "startLocal": false,
+   "end": "2025-05-14 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 37,
+   "version": "1.7",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "简（异常·物理）",
+   "up5": [
+    "1261"
+   ],
+   "names": {
+    "1261": "简"
+   },
+   "start": "2025-04-23 11:00:00",
+   "startLocal": false,
+   "end": "2025-05-14 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 38,
+   "version": "1.7",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "飞鸟星梦（异常）",
+   "up5": [
+    "14133"
+   ],
+   "names": {
+    "14133": "飞鸟星梦"
+   },
+   "start": "2025-04-23 11:00:00",
+   "startLocal": false,
+   "end": "2025-05-14 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 39,
+   "version": "1.7",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "淬锋钳刺（异常）",
+   "up5": [
+    "14126"
+   ],
+   "names": {
+    "14126": "淬锋钳刺"
+   },
+   "start": "2025-04-23 11:00:00",
+   "startLocal": false,
+   "end": "2025-05-14 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 40,
+   "version": "1.7",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "雨果（强攻·冰）",
+   "up5": [
+    "1291"
+   ],
+   "names": {
+    "1291": "雨果"
+   },
+   "start": "2025-05-14 12:00:00",
+   "startLocal": true,
+   "end": "2025-06-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 41,
+   "version": "1.7",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "莱特（击破·火）",
+   "up5": [
+    "1161"
+   ],
+   "names": {
+    "1161": "莱特"
+   },
+   "start": "2025-05-14 12:00:00",
+   "startLocal": true,
+   "end": "2025-06-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 42,
+   "version": "1.7",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "千面日陨（强攻）",
+   "up5": [
+    "14129"
+   ],
+   "names": {
+    "14129": "千面日陨"
+   },
+   "start": "2025-05-14 12:00:00",
+   "startLocal": true,
+   "end": "2025-06-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 43,
+   "version": "1.7",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "焰心桂冠（击破）",
+   "up5": [
+    "14116"
+   ],
+   "names": {
+    "14116": "焰心桂冠"
+   },
+   "start": "2025-05-14 12:00:00",
+   "startLocal": true,
+   "end": "2025-06-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 44,
+   "version": "2.0",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "仪玄（命破·玄墨）",
+   "up5": [
+    "1371"
+   ],
+   "names": {
+    "1371": "仪玄"
+   },
+   "start": "2025-06-06 11:00:00",
+   "startLocal": false,
+   "end": "2025-06-25 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 45,
+   "version": "2.0",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "耀嘉音（支援·以太）",
+   "up5": [
+    "1311"
+   ],
+   "names": {
+    "1311": "耀嘉音"
+   },
+   "start": "2025-06-06 11:00:00",
+   "startLocal": false,
+   "end": "2025-06-25 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 46,
+   "version": "2.0",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "青溟笼舍（命破）",
+   "up5": [
+    "14137"
+   ],
+   "names": {
+    "14137": "青溟笼舍"
+   },
+   "start": "2025-06-06 11:00:00",
+   "startLocal": false,
+   "end": "2025-06-25 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 47,
+   "version": "2.0",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "玲珑妆匣（支援）",
+   "up5": [
+    "14131"
+   ],
+   "names": {
+    "14131": "玲珑妆匣"
+   },
+   "start": "2025-06-06 11:00:00",
+   "startLocal": false,
+   "end": "2025-06-25 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 48,
+   "version": "2.0",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "橘福福（击破·火）",
+   "up5": [
+    "1391"
+   ],
+   "names": {
+    "1391": "橘福福"
+   },
+   "start": "2025-06-25 12:00:00",
+   "startLocal": true,
+   "end": "2025-07-15 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 49,
+   "version": "2.0",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "凯撒（防护·物理）",
+   "up5": [
+    "1071"
+   ],
+   "names": {
+    "1071": "凯撒"
+   },
+   "start": "2025-06-25 12:00:00",
+   "startLocal": true,
+   "end": "2025-07-15 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 50,
+   "version": "2.0",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "福虓炉炉（击破）",
+   "up5": [
+    "14139"
+   ],
+   "names": {
+    "14139": "福虓炉炉"
+   },
+   "start": "2025-06-25 12:00:00",
+   "startLocal": true,
+   "end": "2025-07-15 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 51,
+   "version": "2.0",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "奔袭獠牙（防护）",
+   "up5": [
+    "14107"
+   ],
+   "names": {
+    "14107": "奔袭獠牙"
+   },
+   "start": "2025-06-25 12:00:00",
+   "startLocal": true,
+   "end": "2025-07-15 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 52,
+   "version": "2.1",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "柚叶（支援·物理）",
+   "up5": [
+    "1411"
+   ],
+   "names": {
+    "1411": "柚叶"
+   },
+   "start": "2025-07-16 11:00:00",
+   "startLocal": false,
+   "end": "2025-08-06 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 53,
+   "version": "2.1",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "雅（异常·烈霜）",
+   "up5": [
+    "1091"
+   ],
+   "names": {
+    "1091": "雅"
+   },
+   "start": "2025-07-16 11:00:00",
+   "startLocal": false,
+   "end": "2025-08-06 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 54,
+   "version": "2.1",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "狸法七变化（支援）",
+   "up5": [
+    "14141"
+   ],
+   "names": {
+    "14141": "狸法七变化"
+   },
+   "start": "2025-07-16 11:00:00",
+   "startLocal": false,
+   "end": "2025-08-06 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 55,
+   "version": "2.1",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "霰落星殿（异常）",
+   "up5": [
+    "14109"
+   ],
+   "names": {
+    "14109": "霰落星殿"
+   },
+   "start": "2025-07-16 11:00:00",
+   "startLocal": false,
+   "end": "2025-08-06 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 56,
+   "version": "2.1",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "爱丽丝（异常·物理）",
+   "up5": [
+    "1401"
+   ],
+   "names": {
+    "1401": "爱丽丝"
+   },
+   "start": "2025-08-06 12:00:00",
+   "startLocal": true,
+   "end": "2025-09-03 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 57,
+   "version": "2.1",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "柳（异常·电）",
+   "up5": [
+    "1221"
+   ],
+   "names": {
+    "1221": "柳"
+   },
+   "start": "2025-08-06 12:00:00",
+   "startLocal": true,
+   "end": "2025-09-03 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 58,
+   "version": "2.1",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "十方锻星（异常）",
+   "up5": [
+    "14140"
+   ],
+   "names": {
+    "14140": "十方锻星"
+   },
+   "start": "2025-08-06 12:00:00",
+   "startLocal": true,
+   "end": "2025-09-03 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 59,
+   "version": "2.1",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "时流贤者（异常）",
+   "up5": [
+    "14122"
+   ],
+   "names": {
+    "14122": "时流贤者"
+   },
+   "start": "2025-08-06 12:00:00",
+   "startLocal": true,
+   "end": "2025-09-03 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 60,
+   "version": "2.2",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「席德」（强攻·电）",
+   "up5": [
+    "1461"
+   ],
+   "names": {
+    "1461": "「席德」"
+   },
+   "start": "2025-09-04 11:00:00",
+   "startLocal": false,
+   "end": "2025-09-24 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 61,
+   "version": "2.2",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「扳机」（击破·电）",
+   "up5": [
+    "1361"
+   ],
+   "names": {
+    "1361": "「扳机」"
+   },
+   "start": "2025-09-04 11:00:00",
+   "startLocal": false,
+   "end": "2025-09-24 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 62,
+   "version": "2.2",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "机巧心种（强攻）",
+   "up5": [
+    "14146"
+   ],
+   "names": {
+    "14146": "机巧心种"
+   },
+   "start": "2025-09-04 11:00:00",
+   "startLocal": false,
+   "end": "2025-09-24 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 63,
+   "version": "2.2",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "索魂影眸（击破）",
+   "up5": [
+    "14136"
+   ],
+   "names": {
+    "14136": "索魂影眸"
+   },
+   "start": "2025-09-04 11:00:00",
+   "startLocal": false,
+   "end": "2025-09-24 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 64,
+   "version": "2.2",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "奥菲丝&「鬼火」（强攻·火）",
+   "up5": [
+    "1301"
+   ],
+   "names": {
+    "1301": "奥菲丝&「鬼火」"
+   },
+   "start": "2025-09-24 12:00:00",
+   "startLocal": true,
+   "end": "2025-10-14 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 65,
+   "version": "2.2",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "伊芙琳（强攻·火）",
+   "up5": [
+    "1321"
+   ],
+   "names": {
+    "1321": "伊芙琳"
+   },
+   "start": "2025-09-24 12:00:00",
+   "startLocal": true,
+   "end": "2025-10-14 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 66,
+   "version": "2.2",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "嚣枪喧焰（强攻）",
+   "up5": [
+    "14130"
+   ],
+   "names": {
+    "14130": "嚣枪喧焰"
+   },
+   "start": "2025-09-24 12:00:00",
+   "startLocal": true,
+   "end": "2025-10-14 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 67,
+   "version": "2.2",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "心弦夜响（强攻）",
+   "up5": [
+    "14132"
+   ],
+   "names": {
+    "14132": "心弦夜响"
+   },
+   "start": "2025-09-24 12:00:00",
+   "startLocal": true,
+   "end": "2025-10-14 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 68,
+   "version": "2.3",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "卢西娅（支援·以太）",
+   "up5": [
+    "1451"
+   ],
+   "names": {
+    "1451": "卢西娅"
+   },
+   "start": "2025-10-15 11:00:00",
+   "startLocal": false,
+   "end": "2025-11-05 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 69,
+   "version": "2.3",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "薇薇安（异常·以太）",
+   "up5": [
+    "1331"
+   ],
+   "names": {
+    "1331": "薇薇安"
+   },
+   "start": "2025-10-15 11:00:00",
+   "startLocal": false,
+   "end": "2025-11-05 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 70,
+   "version": "2.3",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "铸梦炉歌（支援）",
+   "up5": [
+    "14145"
+   ],
+   "names": {
+    "14145": "铸梦炉歌"
+   },
+   "start": "2025-10-15 11:00:00",
+   "startLocal": false,
+   "end": "2025-11-05 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 71,
+   "version": "2.3",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "飞鸟星梦（异常）",
+   "up5": [
+    "14133"
+   ],
+   "names": {
+    "14133": "飞鸟星梦"
+   },
+   "start": "2025-10-15 11:00:00",
+   "startLocal": false,
+   "end": "2025-11-05 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 72,
+   "version": "2.3",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "伊德海莉（命破·冰）",
+   "up5": [
+    "1051"
+   ],
+   "names": {
+    "1051": "伊德海莉"
+   },
+   "start": "2025-11-05 12:00:00",
+   "startLocal": true,
+   "end": "2025-11-25 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 73,
+   "version": "2.3",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "橘福福（击破·火）",
+   "up5": [
+    "1391"
+   ],
+   "names": {
+    "1391": "橘福福"
+   },
+   "start": "2025-11-05 12:00:00",
+   "startLocal": true,
+   "end": "2025-11-25 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 74,
+   "version": "2.3",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "海妖摇篮（命破）",
+   "up5": [
+    "14105"
+   ],
+   "names": {
+    "14105": "海妖摇篮"
+   },
+   "start": "2025-11-05 12:00:00",
+   "startLocal": true,
+   "end": "2025-11-25 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 75,
+   "version": "2.3",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "福虓炉炉（击破）",
+   "up5": [
+    "14139"
+   ],
+   "names": {
+    "14139": "福虓炉炉"
+   },
+   "start": "2025-11-05 12:00:00",
+   "startLocal": true,
+   "end": "2025-11-25 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 76,
+   "version": "2.4",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "琉音（击破·物理）",
+   "up5": [
+    "1481"
+   ],
+   "names": {
+    "1481": "琉音"
+   },
+   "start": "2025-11-26 11:00:00",
+   "startLocal": false,
+   "end": "2025-12-17 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 77,
+   "version": "2.4",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "雨果（强攻·冰）",
+   "up5": [
+    "1291"
+   ],
+   "names": {
+    "1291": "雨果"
+   },
+   "start": "2025-11-26 11:00:00",
+   "startLocal": false,
+   "end": "2025-12-17 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 78,
+   "version": "2.4",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "昨夜来电（击破）",
+   "up5": [
+    "14148"
+   ],
+   "names": {
+    "14148": "昨夜来电"
+   },
+   "start": "2025-11-26 11:00:00",
+   "startLocal": false,
+   "end": "2025-12-17 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 79,
+   "version": "2.4",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "千面日陨（强攻）",
+   "up5": [
+    "14129"
+   ],
+   "names": {
+    "14129": "千面日陨"
+   },
+   "start": "2025-11-26 11:00:00",
+   "startLocal": false,
+   "end": "2025-12-17 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 80,
+   "version": "2.4",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "般岳（命破·火）",
+   "up5": [
+    "1471"
+   ],
+   "names": {
+    "1471": "般岳"
+   },
+   "start": "2025-12-17 12:00:00",
+   "startLocal": true,
+   "end": "2025-12-29 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 81,
+   "version": "2.4",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "艾莲（强攻·冰）",
+   "up5": [
+    "1191"
+   ],
+   "names": {
+    "1191": "艾莲"
+   },
+   "start": "2025-12-17 12:00:00",
+   "startLocal": true,
+   "end": "2025-12-29 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 82,
+   "version": "2.4",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "怒目金刚（命破）",
+   "up5": [
+    "14147"
+   ],
+   "names": {
+    "14147": "怒目金刚"
+   },
+   "start": "2025-12-17 12:00:00",
+   "startLocal": true,
+   "end": "2025-12-29 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 83,
+   "version": "2.4",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "深海访客（强攻）",
+   "up5": [
+    "14119"
+   ],
+   "names": {
+    "14119": "深海访客"
+   },
+   "start": "2025-12-17 12:00:00",
+   "startLocal": true,
+   "end": "2025-12-29 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 84,
+   "version": "2.5",
+   "phase": "全版本",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "叶瞬光（强攻·凛刃）",
+   "up5": [
+    "1431"
+   ],
+   "names": {
+    "1431": "叶瞬光"
+   },
+   "start": "2025-12-30 11:00:00",
+   "startLocal": false,
+   "end": "2026-02-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 85,
+   "version": "2.5",
+   "phase": "全版本",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "照（防护·冰）",
+   "up5": [
+    "1341"
+   ],
+   "names": {
+    "1341": "照"
+   },
+   "start": "2025-12-30 11:00:00",
+   "startLocal": false,
+   "end": "2026-02-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 86,
+   "version": "2.5",
+   "phase": "全版本",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "云霓孤光（强攻）",
+   "up5": [
+    "14143"
+   ],
+   "names": {
+    "14143": "云霓孤光"
+   },
+   "start": "2025-12-30 11:00:00",
+   "startLocal": false,
+   "end": "2026-02-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 87,
+   "version": "2.5",
+   "phase": "全版本",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "半糖雪兔（防护）",
+   "up5": [
+    "14134"
+   ],
+   "names": {
+    "14134": "半糖雪兔"
+   },
+   "start": "2025-12-30 11:00:00",
+   "startLocal": false,
+   "end": "2026-02-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 88,
+   "version": "2.5",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": true,
+   "gachaType": "102",
+   "title": "爱丽丝（异常·物理）",
+   "up5": [
+    "1401",
+    "1381",
+    "1311"
+   ],
+   "names": {
+    "1311": "耀嘉音",
+    "1381": "零号·安比",
+    "1401": "爱丽丝"
+   },
+   "start": "2026-01-21 12:00:00",
+   "startLocal": true,
+   "end": "2026-02-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 89,
+   "version": "2.5",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": true,
+   "gachaType": "103",
+   "title": "十方锻星（异常）",
+   "up5": [
+    "14140",
+    "14138",
+    "14131"
+   ],
+   "names": {
+    "14131": "玲珑妆匣",
+    "14138": "牺牲洁纯",
+    "14140": "十方锻星"
+   },
+   "start": "2026-01-21 12:00:00",
+   "startLocal": true,
+   "end": "2026-02-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 90,
+   "version": "2.6",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "千夏（支援·物理）",
+   "up5": [
+    "1491"
+   ],
+   "names": {
+    "1491": "千夏"
+   },
+   "start": "2026-02-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-03-04 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 91,
+   "version": "2.6",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "仪玄（命破·玄墨）",
+   "up5": [
+    "1371"
+   ],
+   "names": {
+    "1371": "仪玄"
+   },
+   "start": "2026-02-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-03-04 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 92,
+   "version": "2.6",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "思络成歌（支援）",
+   "up5": [
+    "14149"
+   ],
+   "names": {
+    "14149": "思络成歌"
+   },
+   "start": "2026-02-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-03-04 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 93,
+   "version": "2.6",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "青溟笼舍（命破）",
+   "up5": [
+    "14137"
+   ],
+   "names": {
+    "14137": "青溟笼舍"
+   },
+   "start": "2026-02-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-03-04 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 94,
+   "version": "2.6",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "爱芮（异常·以太）",
+   "up5": [
+    "1501"
+   ],
+   "names": {
+    "1501": "爱芮"
+   },
+   "start": "2026-03-04 12:00:00",
+   "startLocal": true,
+   "end": "2026-03-23 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 95,
+   "version": "2.6",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "柚叶（支援·物理）",
+   "up5": [
+    "1411"
+   ],
+   "names": {
+    "1411": "柚叶"
+   },
+   "start": "2026-03-04 12:00:00",
+   "startLocal": true,
+   "end": "2026-03-23 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 96,
+   "version": "2.6",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "壳中之灵（异常）",
+   "up5": [
+    "14150"
+   ],
+   "names": {
+    "14150": "壳中之灵"
+   },
+   "start": "2026-03-04 12:00:00",
+   "startLocal": true,
+   "end": "2026-03-23 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 97,
+   "version": "2.6",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "狸法七变化（支援）",
+   "up5": [
+    "14141"
+   ],
+   "names": {
+    "14141": "狸法七变化"
+   },
+   "start": "2026-03-04 12:00:00",
+   "startLocal": true,
+   "end": "2026-03-23 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 98,
+   "version": "2.7",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "南宫羽（击破·以太）",
+   "up5": [
+    "1511"
+   ],
+   "names": {
+    "1511": "南宫羽"
+   },
+   "start": "2026-03-24 11:00:00",
+   "startLocal": false,
+   "end": "2026-04-15 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 99,
+   "version": "2.7",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "伊德海莉（命破·冰）",
+   "up5": [
+    "1051"
+   ],
+   "names": {
+    "1051": "伊德海莉"
+   },
+   "start": "2026-03-24 11:00:00",
+   "startLocal": false,
+   "end": "2026-04-15 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 100,
+   "version": "2.7",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "霓虹妄想（击破）",
+   "up5": [
+    "14151"
+   ],
+   "names": {
+    "14151": "霓虹妄想"
+   },
+   "start": "2026-03-24 11:00:00",
+   "startLocal": false,
+   "end": "2026-04-15 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 101,
+   "version": "2.7",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "海妖摇篮（命破）",
+   "up5": [
+    "14105"
+   ],
+   "names": {
+    "14105": "海妖摇篮"
+   },
+   "start": "2026-03-24 11:00:00",
+   "startLocal": false,
+   "end": "2026-04-15 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 102,
+   "version": "2.7",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "希希芙（强攻·电）",
+   "up5": [
+    "1521"
+   ],
+   "names": {
+    "1521": "希希芙"
+   },
+   "start": "2026-04-15 12:00:00",
+   "startLocal": true,
+   "end": "2026-05-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 103,
+   "version": "2.7",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「席德」（强攻·电）",
+   "up5": [
+    "1461"
+   ],
+   "names": {
+    "1461": "「席德」"
+   },
+   "start": "2026-04-15 12:00:00",
+   "startLocal": true,
+   "end": "2026-05-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 104,
+   "version": "2.7",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "鳞齿寻踪（强攻）",
+   "up5": [
+    "14152"
+   ],
+   "names": {
+    "14152": "鳞齿寻踪"
+   },
+   "start": "2026-04-15 12:00:00",
+   "startLocal": true,
+   "end": "2026-05-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 105,
+   "version": "2.7",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "机巧心种（强攻）",
+   "up5": [
+    "14146"
+   ],
+   "names": {
+    "14146": "机巧心种"
+   },
+   "start": "2026-04-15 12:00:00",
+   "startLocal": true,
+   "end": "2026-05-05 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 106,
+   "version": "2.8",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "普罗米娅（异常·冰）",
+   "up5": [
+    "1541"
+   ],
+   "names": {
+    "1541": "普罗米娅"
+   },
+   "start": "2026-05-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-05-27 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 107,
+   "version": "2.8",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "卢西娅（支援·以太）",
+   "up5": [
+    "1451"
+   ],
+   "names": {
+    "1451": "卢西娅"
+   },
+   "start": "2026-05-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-05-27 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 108,
+   "version": "2.8",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "朔月裁霜（异常）",
+   "up5": [
+    "14154"
+   ],
+   "names": {
+    "14154": "朔月裁霜"
+   },
+   "start": "2026-05-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-05-27 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 109,
+   "version": "2.8",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "铸梦炉歌（支援）",
+   "up5": [
+    "14145"
+   ],
+   "names": {
+    "14145": "铸梦炉歌"
+   },
+   "start": "2026-05-06 11:00:00",
+   "startLocal": false,
+   "end": "2026-05-27 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 110,
+   "version": "2.8",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "星徽·比利（命破·物理）",
+   "up5": [
+    "1531"
+   ],
+   "names": {
+    "1531": "星徽·比利"
+   },
+   "start": "2026-05-27 12:00:00",
+   "startLocal": true,
+   "end": "2026-06-16 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 111,
+   "version": "2.8",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "奥菲丝&「鬼火」（强攻·火）",
+   "up5": [
+    "1301"
+   ],
+   "names": {
+    "1301": "奥菲丝&「鬼火」"
+   },
+   "start": "2026-05-27 12:00:00",
+   "startLocal": true,
+   "end": "2026-06-16 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 112,
+   "version": "2.8",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "辉骑面铠（命破）",
+   "up5": [
+    "14153"
+   ],
+   "names": {
+    "14153": "辉骑面铠"
+   },
+   "start": "2026-05-27 12:00:00",
+   "startLocal": true,
+   "end": "2026-06-16 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 113,
+   "version": "2.8",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "嚣枪喧焰（强攻）",
+   "up5": [
+    "14130"
+   ],
+   "names": {
+    "14130": "嚣枪喧焰"
+   },
+   "start": "2026-05-27 12:00:00",
+   "startLocal": true,
+   "end": "2026-06-16 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 114,
+   "version": "3.0",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "维琳娜（异常·风）",
+   "up5": [
+    "1561"
+   ],
+   "names": {
+    "1561": "维琳娜"
+   },
+   "start": "2026-06-17 11:00:00",
+   "startLocal": false,
+   "end": "2026-07-08 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 115,
+   "version": "3.0",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "叶瞬光（强攻·凛刃）",
+   "up5": [
+    "1431"
+   ],
+   "names": {
+    "1431": "叶瞬光"
+   },
+   "start": "2026-06-17 11:00:00",
+   "startLocal": false,
+   "end": "2026-07-08 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 116,
+   "version": "3.0",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "琳琅鎏心（异常）",
+   "up5": [
+    "14156"
+   ],
+   "names": {
+    "14156": "琳琅鎏心"
+   },
+   "start": "2026-06-17 11:00:00",
+   "startLocal": false,
+   "end": "2026-07-08 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 117,
+   "version": "3.0",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "云霓孤光（强攻）",
+   "up5": [
+    "14143"
+   ],
+   "names": {
+    "14143": "云霓孤光"
+   },
+   "start": "2026-06-17 11:00:00",
+   "startLocal": false,
+   "end": "2026-07-08 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 118,
+   "version": "3.0",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "诺姆（击破·火）",
+   "up5": [
+    "1571"
+   ],
+   "names": {
+    "1571": "诺姆"
+   },
+   "start": "2026-07-08 12:00:00",
+   "startLocal": true,
+   "end": "2026-07-28 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 119,
+   "version": "3.0",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "千夏（支援·物理）",
+   "up5": [
+    "1491"
+   ],
+   "names": {
+    "1491": "千夏"
+   },
+   "start": "2026-07-08 12:00:00",
+   "startLocal": true,
+   "end": "2026-07-28 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 120,
+   "version": "3.0",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "首席跟班（击破）",
+   "up5": [
+    "14157"
+   ],
+   "names": {
+    "14157": "首席跟班"
+   },
+   "start": "2026-07-08 12:00:00",
+   "startLocal": true,
+   "end": "2026-07-28 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 121,
+   "version": "3.0",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "思络成歌（支援）",
+   "up5": [
+    "14149"
+   ],
+   "names": {
+    "14149": "思络成歌"
+   },
+   "start": "2026-07-08 12:00:00",
+   "startLocal": true,
+   "end": "2026-07-28 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 122,
+   "version": "3.1",
+   "phase": "全版本",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "蕾米埃尔（异常·流明）",
+   "up5": [
+    "1581"
+   ],
+   "names": {
+    "1581": "蕾米埃尔"
+   },
+   "start": "2026-07-29 11:00:00",
+   "startLocal": false,
+   "end": "2026-09-08 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 123,
+   "version": "3.1",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "爱芮（异常·以太）",
+   "up5": [
+    "1501"
+   ],
+   "names": {
+    "1501": "爱芮"
+   },
+   "start": "2026-07-29 11:00:00",
+   "startLocal": false,
+   "end": "2026-08-19 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 124,
+   "version": "3.1",
+   "phase": "全版本",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "空羽复归之诗（异常）",
+   "up5": [
+    "14158"
+   ],
+   "names": {
+    "14158": "空羽复归之诗"
+   },
+   "start": "2026-07-29 11:00:00",
+   "startLocal": false,
+   "end": "2026-09-08 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 125,
+   "version": "3.1",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "壳中之灵（异常）",
+   "up5": [
+    "14150"
+   ],
+   "names": {
+    "14150": "壳中之灵"
+   },
+   "start": "2026-07-29 11:00:00",
+   "startLocal": false,
+   "end": "2026-08-19 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 126,
+   "version": "3.1",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "希格莉德（强攻·冰）",
+   "up5": [
+    "1591"
+   ],
+   "names": {
+    "1591": "希格莉德"
+   },
+   "start": "2026-08-19 12:00:00",
+   "startLocal": true,
+   "end": "2026-09-08 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 127,
+   "version": "3.1",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": true,
+   "gachaType": "102",
+   "title": "琉音（击破·物理）",
+   "up5": [
+    "1481",
+    "1411",
+    "1201"
+   ],
+   "names": {
+    "1201": "悠真",
+    "1411": "柚叶",
+    "1481": "琉音"
+   },
+   "start": "2026-08-19 12:00:00",
+   "startLocal": true,
+   "end": "2026-09-08 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 128,
+   "version": "3.1",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "骁骑礼赞（强攻）",
+   "up5": [
+    "14159"
+   ],
+   "names": {
+    "14159": "骁骑礼赞"
+   },
+   "start": "2026-08-19 12:00:00",
+   "startLocal": true,
+   "end": "2026-09-08 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 129,
+   "version": "3.1",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": true,
+   "gachaType": "103",
+   "title": "昨夜来电（击破）",
+   "up5": [
+    "14148",
+    "14141",
+    "14120"
+   ],
+   "names": {
+    "14120": "残心青囊",
+    "14141": "狸法七变化",
+    "14148": "昨夜来电"
+   },
+   "start": "2026-08-19 12:00:00",
+   "startLocal": true,
+   "end": "2026-09-08 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 130,
+   "version": "3.2",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "克拉蕾（锋御·电）",
+   "up5": [
+    "1611"
+   ],
+   "names": {
+    "1611": "克拉蕾"
+   },
+   "start": "2026-09-09 11:00:00",
+   "startLocal": false,
+   "end": "2026-09-30 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 131,
+   "version": "3.2",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "南宫羽（击破·以太）",
+   "up5": [
+    "1511"
+   ],
+   "names": {
+    "1511": "南宫羽"
+   },
+   "start": "2026-09-09 11:00:00",
+   "startLocal": false,
+   "end": "2026-09-30 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 132,
+   "version": "3.2",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "猩红渴望（锋御）",
+   "up5": [
+    "14161"
+   ],
+   "names": {
+    "14161": "猩红渴望"
+   },
+   "start": "2026-09-09 11:00:00",
+   "startLocal": false,
+   "end": "2026-09-30 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 133,
+   "version": "3.2",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "霓虹妄想（击破）",
+   "up5": [
+    "14151"
+   ],
+   "names": {
+    "14151": "霓虹妄想"
+   },
+   "start": "2026-09-09 11:00:00",
+   "startLocal": false,
+   "end": "2026-09-30 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 134,
+   "version": "3.2",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「烬夜安眠」038-1期独家频段",
+   "up5": [
+    "1621"
+   ],
+   "names": {
+    "1621": "洛克茜"
+   },
+   "start": "2026-09-30 12:00:00",
+   "startLocal": true,
+   "end": "2026-10-20 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 135,
+   "version": "3.2",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「冷雨将尽之夜」038-2期独家频段",
+   "up5": [
+    "1541"
+   ],
+   "names": {
+    "1541": "普罗米娅"
+   },
+   "start": "2026-09-30 12:00:00",
+   "startLocal": true,
+   "end": "2026-10-20 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 136,
+   "version": "3.2",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "「绯月银棺」038-1期音擎频段",
+   "up5": [
+    "14162"
+   ],
+   "names": {
+    "14162": "绯月银棺"
+   },
+   "start": "2026-09-30 12:00:00",
+   "startLocal": true,
+   "end": "2026-10-20 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 137,
+   "version": "3.2",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "「朔月裁霜」038-2期音擎频段",
+   "up5": [
+    "14154"
+   ],
+   "names": {
+    "14154": "朔月裁霜"
+   },
+   "start": "2026-09-30 12:00:00",
+   "startLocal": true,
+   "end": "2026-10-20 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 138,
+   "version": "3.3",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「倾掷浮生」039-1期独家频段",
+   "up5": [
+    "1641"
+   ],
+   "names": {
+    "1641": "菲欧妮"
+   },
+   "start": "2026-10-21 11:00:00",
+   "startLocal": false,
+   "end": "2026-11-10 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 139,
+   "version": "3.3",
+   "phase": "上半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「凛风吟仪」039-2期独家频段",
+   "up5": [
+    "1561"
+   ],
+   "names": {
+    "1561": "维琳娜"
+   },
+   "start": "2026-10-21 11:00:00",
+   "startLocal": false,
+   "end": "2026-11-10 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 140,
+   "version": "3.3",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "「涅槃初翎」039-1期音擎频段",
+   "up5": [
+    "14164"
+   ],
+   "names": {
+    "14164": "涅槃初翎"
+   },
+   "start": "2026-10-21 11:00:00",
+   "startLocal": false,
+   "end": "2026-11-10 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 141,
+   "version": "3.3",
+   "phase": "上半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "「琳琅鎏心」039-2期音擎频段",
+   "up5": [
+    "14156"
+   ],
+   "names": {
+    "14156": "琳琅鎏心"
+   },
+   "start": "2026-10-21 11:00:00",
+   "startLocal": false,
+   "end": "2026-11-10 11:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 142,
+   "version": "3.3",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「答案在风中」独家频段",
+   "up5": [
+    "1631"
+   ],
+   "names": {
+    "1631": "赛维里安"
+   },
+   "start": "2026-11-11 12:00:00",
+   "startLocal": true,
+   "end": "2026-12-01 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 143,
+   "version": "3.3",
+   "phase": "下半",
+   "channel": "character",
+   "rerun": false,
+   "gachaType": "2",
+   "title": "「天才不等式」独家频段",
+   "up5": [
+    "1571"
+   ],
+   "names": {
+    "1571": "诺姆"
+   },
+   "start": "2026-11-11 12:00:00",
+   "startLocal": true,
+   "end": "2026-12-01 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 144,
+   "version": "3.3",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "「禁罪囚笼」音擎频段",
+   "up5": [
+    "14163"
+   ],
+   "names": {
+    "14163": "禁罪囚笼"
+   },
+   "start": "2026-11-11 12:00:00",
+   "startLocal": true,
+   "end": "2026-12-01 14:59:59",
+   "endLocal": true
+  },
+  {
+   "id": 145,
+   "version": "3.3",
+   "phase": "下半",
+   "channel": "engine",
+   "rerun": false,
+   "gachaType": "3",
+   "title": "「首席跟班」音擎频段",
+   "up5": [
+    "14157"
+   ],
+   "names": {
+    "14157": "首席跟班"
+   },
+   "start": "2026-11-11 12:00:00",
+   "startLocal": true,
+   "end": "2026-12-01 14:59:59",
+   "endLocal": true
+  }
+ ]
+}

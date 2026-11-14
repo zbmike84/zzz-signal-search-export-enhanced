@@ -134,27 +134,29 @@
         >{{ ui.button.solution }}</el-button
       >
     </p>
-    <div
-      v-if="detail"
-      class="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4"
-    >
-      <div class="mb-4" v-for="(item, i) of detail" :key="i">
-        <div :class="{ hidden: state.config.hideStandard && item[0] === '1' }">
-          <p class="text-center text-gray-600 my-2">
-            {{ typeMap.get(item[0]) }}
-          </p>
-          <pie-chart
-            :data="item"
-            :i18n="state.i18n"
-            :typeMap="typeMap"
-          ></pie-chart>
-          <gacha-detail
-            :i18n="state.i18n"
-            :data="item"
-            :typeMap="typeMap"
-          ></gacha-detail>
+    <div v-if="gachaData && aText" class="flex flex-col gap-4 pb-6">
+      <template v-if="analysis">
+        <el-alert v-if="analysis.issues.length" type="warning" :closable="false" show-icon
+                  :title="fmt(aText.issues, { n: analysis.issues.length })"></el-alert>
+        <status-tiles :analysis="analysis" :typeMap="typeMap" :text="aText"></status-tiles>
+        <luck-summary :analysis="analysis" :typeMap="typeMap" :text="aText"></luck-summary>
+        <pity-ledger :analysis="analysis" :typeMap="typeMap" :text="aText" :icons="state.icons"></pity-ledger>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <pity-distribution :analysis="analysis" :typeMap="typeMap" :text="aText"></pity-distribution>
+          <luck-panel :analysis="analysis" :text="aText"></luck-panel>
         </div>
-      </div>
+        <version-chart :analysis="analysis" :typeMap="typeMap" :text="aText" :icons="state.icons"></version-chart>
+      </template>
+      <el-collapse v-if="detail">
+        <el-collapse-item :title="aText.classic.title" name="classic">
+          <div class="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4">
+            <div v-for="(item, i) of detail" :key="i" :class="{ hidden: state.config.hideStandard && item[0] === '1' }">
+              <p class="text-center text-gray-600 my-2">{{ typeMap.get(item[0]) }}</p>
+              <gacha-detail :i18n="state.i18n" :data="item" :typeMap="typeMap"></gacha-detail>
+            </div>
+          </div>
+        </el-collapse-item>
+      </el-collapse>
     </div>
     <Setting
       v-show="state.showSetting"
@@ -226,7 +228,15 @@
 <script setup>
 const { ipcRenderer } = require("electron");
 import { reactive, computed, watch, onMounted } from "vue";
-import PieChart from "./components/PieChart.vue";
+import StatusTiles from "./components/StatusTiles.vue";
+import LuckSummary from "./components/LuckSummary.vue";
+import PityLedger from "./components/PityLedger.vue";
+import PityDistribution from "./components/PityDistribution.vue";
+import LuckPanel from "./components/LuckPanel.vue";
+import VersionChart from "./components/VersionChart.vue";
+import { analyse } from "./analysis.js";
+import { fmt } from "./analysisUi";
+import bannerData from "../data/banners.json";
 import GachaDetail from "./components/GachaDetail.vue";
 import Setting from "./components/Setting.vue";
 import gachaDetail from "./gachaDetail";
@@ -239,6 +249,7 @@ const state = reactive({
   log: "",
   data: null,
   dataMap: new Map(),
+  icons: {},
   current: 0,
   showSetting: false,
   i18n: null,
@@ -332,6 +343,40 @@ const detail = computed(() => {
     return gachaDetail(data.result);
   }
 });
+
+const analysis = computed(() => {
+  const data = state.dataMap.get(state.current);
+  if (!data) return null;
+  try {
+    return analyse(data, bannerData);
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
+});
+
+const aText = computed(() => state.i18n?.ui?.analysis);
+
+// icons for every S-rank on screen (cached on disk by the main process): cached first, then downloads
+watch(analysis, async (a) => {
+  if (!a) return;
+  const want = new Map();
+  for (const p of Object.values(a.pools)) {
+    for (const f of p.fives) if (f.itemId && !state.icons[f.itemId]) want.set(f.itemId, { id: f.itemId });
+  }
+  if (!want.size) return;
+  try {
+    const cached = await ipcRenderer.invoke("GET_ICONS", [...want.values()], { offline: true });
+    state.icons = { ...state.icons, ...cached };
+    const missing = [...want.values()].filter((i) => !cached[i.id]);
+    if (missing.length) {
+      const got = await ipcRenderer.invoke("GET_ICONS", missing);
+      state.icons = { ...state.icons, ...got };
+    }
+  } catch (e) {
+    console.error(e);
+  }
+}, { immediate: true });
 
 const typeMap = computed(() => {
   const gachaTypeMap = new Map(gachaType);

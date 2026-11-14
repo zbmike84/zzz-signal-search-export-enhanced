@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node .electron-vite/dev-runner.js",
-    "test": "jest",
+    "test": "jest && node --no-warnings --test test/judge.test.mjs",
     "build": "cross-env BUILD_TARGET=clean node .electron-vite/build.js  && electron-builder",
     "build:win32": "cross-env BUILD_TARGET=clean node .electron-vite/build.js  && electron-builder --win  --ia32",
     "build:win64": "cross-env BUILD_TARGET=clean node .electron-vite/build.js  && electron-builder --win  --x64",
@@ -22,7 +22,8 @@
     "dev:web": "cross-env TARGET=web node .electron-vite/dev-runner.js",
     "start": "electron ./src/main/main.js",
     "dep:upgrade": "yarn upgrade-interactive --latest",
-    "postinstall": "electron-builder install-app-deps"
+    "postinstall": "electron-builder install-app-deps",
+    "gen:banners": "node scripts/gen-banners.mjs"
   },
   "build": {
     "nsis": {
